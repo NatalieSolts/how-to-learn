@@ -202,7 +202,7 @@
   font-size: 36px;
   font-weight: 400;
   margin: 0;
-  z-index: 10;
+  z-index: 100;
 }
 
 .feynman__link {
@@ -228,22 +228,22 @@
 
 .kaufman {
   background-color: #1f1f1f;
-  z-index: 1;
   color: white;
-  margin-top: 0;
   position: relative;
+  margin-top: 0;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Принципы обучения */
 .section-title_theme_dark {
   margin-top: 90px;
-  z-index: 10;
+  z-index: 100;
 }
 
 .table_theme_dark {
   margin-bottom: 90px;
-  z-index: 100;
 }
 
 .table__cell_theme_dark {
