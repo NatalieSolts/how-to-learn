@@ -166,14 +166,14 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin: 0 0 20px;
+  margin: 0;
  }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin: 20px 0 0;
 }
 
 .feynman {
@@ -285,7 +285,9 @@
   flex-basis: 711px;
   margin: 0;
   padding: 0;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
  }
 
  .logo_place_footer {
@@ -296,13 +298,10 @@
   }
 
 .footer__author {
-   margin-bottom: 0;
+  margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
-  position: absolute;
-  left: 0;
-  bottom: 18px;
 }
 
   /* О Практикуме */
